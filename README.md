@@ -6,6 +6,13 @@
 [![Window github action](https://github.com/Snowapril/cargs/actions/workflows/window.yml/badge.svg?branch=main)](https://github.com/snowapril/cargs/actions)
 [![MacOS github action](https://github.com/Snowapril/cargs/actions/workflows/macos.yml/badge.svg?branch=main)](https://github.com/snowapril/cargs/actions)
 
+**cargs** is `light-weight` command line arguments parser library. 
+
+In addition to command parser, provide `similar command recommendation features` like well-known git or npm.
+
+If given command is slightly different with what developer predefined, 
+cargs can provide similar commands with given wrong command
+
 ## Demo
 **TBA**
 
