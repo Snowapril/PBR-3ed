@@ -5,6 +5,7 @@
 [![Ubuntu github action](https://github.com/Snowapril/cargs/actions/workflows/ubuntu.yml/badge.svg?branch=main)](https://github.com/snowapril/cargs/actions)
 [![Window github action](https://github.com/Snowapril/cargs/actions/workflows/window.yml/badge.svg?branch=main)](https://github.com/snowapril/cargs/actions)
 [![MacOS github action](https://github.com/Snowapril/cargs/actions/workflows/macos.yml/badge.svg?branch=main)](https://github.com/snowapril/cargs/actions)
+[![codecov](https://codecov.io/gh/Snowapril/cargs/branch/main/graph/badge.svg?token=DFVF4SSGJV)](https://codecov.io/gh/Snowapril/cargs)
 
 **cargs** is `light-weight` command line arguments parser library. 
 
