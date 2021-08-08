@@ -61,4 +61,5 @@ endif()
 
 # Project modules
 add_subdirectory(Sources/cargs)
+add_subdirectory(Tests/UnitTests)
 add_subdirectory(Examples)
