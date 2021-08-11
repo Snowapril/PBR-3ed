@@ -3,8 +3,8 @@
 #
 
 # Set warnings as errors flag
-option(CARGS_WARNINGS_AS_ERRORS "Treat all warnings as errors" ON)
-if(CARGS_WARNINGS_AS_ERRORS)
+option(PBR_3ED_WARNINGS_AS_ERRORS "Treat all warnings as errors" ON)
+if(PBR_3ED_WARNINGS_AS_ERRORS)
 	if(CMAKE_CXX_COMPILER_ID MATCHES "MSVC")
 		set(WARN_AS_ERROR_FLAGS	"/WX")
 	else()

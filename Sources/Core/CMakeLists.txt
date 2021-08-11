@@ -1,17 +1,17 @@
 # Target name
-set(target cargs)
+set(target pbr-3ed)
 set(ROOT_DIR ${PROJECT_SOURCE_DIR})
-set(PUBLIC_HDR_DIR ${PROJECT_SOURCE_DIR}/Includes/cargs)
+set(PUBLIC_HDR_DIR ${PROJECT_SOURCE_DIR}/Includes/Core)
 set(SRC_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 
 # Set public headers
 set(PUBLIC_HDRS
-    ${PUBLIC_HDR_DIR}/cargs.hpp
+    ${PUBLIC_HDR_DIR}/PBRCore.hpp
 )
 
 # Set Sources
 set(SRCS
-    ${SRC_DIR}/cargs.cpp
+    ${SRC_DIR}/PBRCore.cpp
 )
 
 # Build library

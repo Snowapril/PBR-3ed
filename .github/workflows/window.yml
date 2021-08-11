@@ -32,6 +32,6 @@ jobs:
     - name: Add MSBuild to PATH
       uses: microsoft/setup-msbuild@v1.0.2
     - name: Build
-      run: cd build && MSBuild.exe cargs.sln /p:Configuration=Release
+      run: cd build && MSBuild.exe PBR-3ed.sln /p:Configuration=Release
     - name: Run Unit Test
-      run: /a/cargs/cargs/build/bin/Release/UnitTests.exe
+      run: /a/PBR-3ed/PBR-3ed/build/bin/Release/UnitTests.exe

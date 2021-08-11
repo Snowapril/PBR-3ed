@@ -45,4 +45,4 @@ jobs:
     - name: Build
       run: cd build && make
     - name: Run Unit Test
-      run: /Users/runner/work/cargs/cargs/build/bin/UnitTests
+      run: /Users/runner/work/PBR-3ed/PBR-3ed/build/bin/UnitTests

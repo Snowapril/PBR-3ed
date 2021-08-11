@@ -8,7 +8,7 @@ set(CMAKE_VISIBILITY_INLINES_HIDDEN 1)
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/Builds/CMake")
 
 # Declare project
-project(cargs)
+project(pbr-3ed)
 
 # Set output directories
 set(DEFAULT_CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_LIBRARY_OUTPUT_DIRECTORY})
@@ -60,6 +60,6 @@ if (CONAN_SCRIPT)
 endif()
 
 # Project modules
-add_subdirectory(Sources/cargs)
+add_subdirectory(Sources/Core)
 add_subdirectory(Tests/UnitTests)
 add_subdirectory(Examples)

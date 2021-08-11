@@ -54,6 +54,6 @@ jobs:
     - name: Build
       run: cd build && make
     - name: Run Unit Test
-      run: /home/runner/work/cargs/cargs/build/bin/UnitTests
+      run: /home/runner/work/PBR-3ed/PBR-3ed/build/bin/UnitTests
     - name: Upload coverage to Codecov
       run: bash <(curl -s https://codecov.io/bash)

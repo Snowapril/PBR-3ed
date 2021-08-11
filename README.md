@@ -1,18 +1,18 @@
-# cargs
+# PBR-3ed
 
-[![CodeFactor](https://www.codefactor.io/repository/github/snowapril/cargs/badge)](https://www.codefactor.io/repository/github/snowapril/cargs)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/0a9769e2c95d4efba8c26196b882ad27)](https://www.codacy.com/gh/Snowapril/cargs/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Snowapril/cargs&amp;utm_campaign=Badge_Grade)
-[![Ubuntu github action](https://github.com/Snowapril/cargs/actions/workflows/ubuntu.yml/badge.svg?branch=main)](https://github.com/snowapril/cargs/actions)
-[![Window github action](https://github.com/Snowapril/cargs/actions/workflows/window.yml/badge.svg?branch=main)](https://github.com/snowapril/cargs/actions)
-[![MacOS github action](https://github.com/Snowapril/cargs/actions/workflows/macos.yml/badge.svg?branch=main)](https://github.com/snowapril/cargs/actions)
-[![codecov](https://codecov.io/gh/Snowapril/cargs/branch/main/graph/badge.svg?token=DFVF4SSGJV)](https://codecov.io/gh/Snowapril/cargs)
+[![CodeFactor](https://www.codefactor.io/repository/github/snowapril/PBR-3ed/badge)](https://www.codefactor.io/repository/github/snowapril/PBR-3ed)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/0a9769e2c95d4efba8c26196b882ad27)](https://www.codacy.com/gh/Snowapril/PBR-3ed/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Snowapril/PBR-3ed&amp;utm_campaign=Badge_Grade)
+[![Ubuntu github action](https://github.com/Snowapril/PBR-3ed/actions/workflows/ubuntu.yml/badge.svg?branch=main)](https://github.com/snowapril/PBR-3ed/actions)
+[![Window github action](https://github.com/Snowapril/PBR-3ed/actions/workflows/window.yml/badge.svg?branch=main)](https://github.com/snowapril/PBR-3ed/actions)
+[![MacOS github action](https://github.com/Snowapril/PBR-3ed/actions/workflows/macos.yml/badge.svg?branch=main)](https://github.com/snowapril/PBR-3ed/actions)
+[![codecov](https://codecov.io/gh/Snowapril/PBR-3ed/branch/main/graph/badge.svg?token=DFVF4SSGJV)](https://codecov.io/gh/Snowapril/PBR-3ed)
 
-**cargs** is `light-weight` command line arguments parser library. 
+**PBR-3ed** is `light-weight` command line arguments parser library. 
 
 In addition to command parser, provide `similar command recommendation features` like well-known git or npm.
 
 If given command is slightly different with what developer predefined, 
-cargs can provide similar commands with given wrong command
+PBR-3ed can provide similar commands with given wrong command
 
 ## Demo
 **TBA**
@@ -24,8 +24,8 @@ pip3 install conan
 
 ## How to Build
 ```bash
-git clone https://github.com/snowapril/cargs
-cd cargs
+git clone https://github.com/snowapril/PBR-3ed
+cd PBR-3ed
 mkdir build
 conan install . -if build --build missing -s build_type=Release
 cd build

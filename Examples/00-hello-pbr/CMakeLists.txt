@@ -1,10 +1,8 @@
-set(target UnitTests)
+# Target name
+set(target 00-hello-pbr)
 set(ROOT_DIR ${PROJECT_SOURCE_DIR})
 set(PUBLIC_HDR_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 set(SRC_DIR ${CMAKE_CURRENT_SOURCE_DIR})
-
-# Import doctest package
-find_package(doctest MODULE REQUIRED)
 
 # Includes
 set(PUBLIC_HDRS 
@@ -12,7 +10,7 @@ set(PUBLIC_HDRS
 
 # Sources
 set(SRCS
-    ${SRC_DIR}/UnitTests.cpp
+    ${SRC_DIR}/main.cpp
 )
 
 # Build executable
@@ -31,7 +29,6 @@ target_include_directories(${target}
     $<BUILD_INTERFACE:${PUBLIC_HDR_DIR}>
     $<INSTALL_INTERFACE:${CMAKE_INSTALL_PREFIX}/include>
     PRIVATE
-    ${doctest_INCLUDE_DIR}
     ${ROOT_DIR}/Includes
 )
 
