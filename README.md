@@ -7,13 +7,6 @@
 [![MacOS github action](https://github.com/Snowapril/PBR-3ed/actions/workflows/macos.yml/badge.svg?branch=main)](https://github.com/snowapril/PBR-3ed/actions)
 [![codecov](https://codecov.io/gh/Snowapril/PBR-3ed/branch/main/graph/badge.svg?token=DFVF4SSGJV)](https://codecov.io/gh/Snowapril/PBR-3ed)
 
-**PBR-3ed** is `light-weight` command line arguments parser library. 
-
-In addition to command parser, provide `similar command recommendation features` like well-known git or npm.
-
-If given command is slightly different with what developer predefined, 
-PBR-3ed can provide similar commands with given wrong command
-
 ## Demo
 **TBA**
 
